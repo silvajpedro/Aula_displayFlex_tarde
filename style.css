@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display:flex;
+    border: solid 10px aqua;
+    height: 115vh;
+    
+    /* flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; */
+    /* 
+    row --> padrão do display flex
+    as caixas ficam em linha
+    row-reverse -> padrão do display flex
+    as caixas ficam em linha porém posicionadas
+    de forma inversa.*/
+    /* column --> as caixas ficam posicionadas 
+    uma embaixo da outra como se fosse uma
+    coluna.
+    column-reverse --> as caixas ficam posicionadas 
+    uma embaixo da outra como se fosse uma
+    coluna, porém com a ordem de posicionamento
+    invertida. */
+
+flex-wrap:nowrap;
+align-items: center;
+justify-content: space-around;
+/* 
+wrap --> colocará nossos elementos 
+na fileira abaixo.
+
+wrap-reverse --> o wrap reverse colocará nossos elementos 
+na fileira abaixo invertendo as posições.
+
+nowrap --> não colocará os nossos elementos em fileira
+deixará todos em linha.
+
+
+
+*/
+   
+}
+div{
+    width: 30vw;
+    height: 25vh;
+}
+.tomato{
+background-color: tomato;
+}
+.purple{
+background-color: purple;
+}
+.blue{
+background-color:blue ;
+}
+.darksgreen{
+background-color: darkseagreen;
+}
+p{
+    border: solid;
+    width: 30vw;
+    height:25vh ;
+}
+img{
+    width: 10vw;
+    height: 25vh;
+}
